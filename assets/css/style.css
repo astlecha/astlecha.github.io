@@ -1,0 +1,26 @@
+body {
+	background-color: #ffffff;
+	font: "Arial";
+}
+
+h1 {
+	font: "Georgia";
+}
+
+#content-area {
+	width: 960px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+#main-section {
+	width: 650px;
+}
+
+#sidebar {
+	width: 270px;
+}
+
+.icon {
+	width: 50px;
+}
