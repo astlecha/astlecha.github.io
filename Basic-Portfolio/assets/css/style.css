@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box ;
+}
+
+body {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+		/* The background image I chose is different from the one used in the prototype CSS template.
+		Both images can be found at https://subtlepatterns.com/ */
+	background-image: url("../images/swirl_pattern/swirl_pattern.png") ;
+}
+
+.topnav {
+		/*Positioning Properties*/
+	position: relative ;
+	padding: 36px ;
+	z-index: 1 ;
+	margin-top: 0 ;
+
+		/*Aesthetics*/
+	height: 82px ;
+	text-align: right ;
+	background-color: #ffffff ;
+	border-bottom-color: #cccccc ;
+	border-bottom-style: solid ;
+	border-width: 2px;
+}
+
+a {
+	color: grey;
+	text-decoration: none ;
+}
+
+h1 {
+ 		/*Positioning Properties*/
+    padding: 30px ;
+    position: absolute; 
+    margin-top: 0 ;
+    margin-left: 100px;
+    z-index: 2 ;
+
+		/*Aesthetics*/
+    color: #ffffff ;
+    text-align: center ;
+    height: 80px ;
+    width: 280px;
+    font-family: 'Georgia', Times, Times New Roman, serif ;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4aaaa5 ;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif ;
+	color: #4aaaa5 ;
+	font-size: 28px ;
+	font-weight: bold;
+	border-bottom: solid;
+	border-color: #cccccc ;
+	line-height: 50px ;
+	margin-bottom: 25px ;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif ;
+	font-size: 23px ;
+	border-bottom: solid;
+	border-color: #cccccc ;
+	line-height: 50px ;
+	margin-bottom: 25px ;
+}
+
+h4 {
+	position: relative;
+    z-index: 1;
+    bottom: 72px;
+    background-color: #4aaaa5;
+    display: block;
+    left: 0px;
+    width: 250px;
+    height: 50px ;
+    font-size: 20px ;
+    color: white ;
+    text-align: center;
+    padding: 10px ;
+}
+
+.mainpic {
+	float: left;
+	margin-right: 20px;
+}
+
+.textBox {
+
+	margin-top: 20px ;
+}
+
+.mainbox {
+		/*Positioning Properties*/
+	float: left ;
+	padding: 30px ;
+	margin-left: 100px ;
+	margin-top: 35px ;
+
+		/*Aesthetics*/
+	background-color: #ffffff ;
+	width: 650px ;
+	color: grey ;
+	line-height: 30px ;
+	text-align: wrap ;
+	border-style: solid ;
+	border-width: 1px ;
+	border-color: #dddddd ;
+}
+
+.message {
+	height: 150px;
+	width: 100%;
+} 
+
+.msgInput {
+	width: 100% ;
+}
+
+.submitButton {
+	margin-top: 20px ;
+	width: 100px ;
+	height: 30px ;
+	font-size: 15px ;
+	background-color: #4aaaa5 ;
+	color: #ffffff ;
+	border-style: none ;
+}
+
+.submitButton:hover {
+	background-color: grey ;
+}
+
+.portfolioPics {
+	width: 250px ;
+}
+
+.img1 {
+	width: 250px;
+	display: inline-block;
+	margin-right: 20px ;
+	margin-left: 10px ;
+}
+
+#sidebar {
+    width: 270px ;
+    background-color: white ;
+    text-align: center ;
+    border-color: #EEEEEE ;
+    border-style: solid ;
+    clear: both ;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 35px;
+    color: #4aaaa5 ;
+    font-weight: bold;
+    line-height: 30px ;
+    padding: 20px;
+    position: fixed ;
+}
+
+.icon {
+ 	width: 70px ;
+	object-position: fixed ;
+	margin-bottom: 15px ;
+}
+
+footer {
+	background-color: grey ;
+	height: 80px ;
+	width: 100% ;
+	padding: 25px ;
+	margin-bottom: 0px ;
+
+	border-top-style: solid ;
+	border-color: #4aaaa5 ;
+	border-width: 10px ;
+
+	color: #EEEEEE ;
+	text-align: center ;
+	font-size: 12px ;
+	
+	clear: both ;
+	position: fixed;
+	bottom: 0 ;
+	overflow: hidden ;
+	z-index: 4;
+}
